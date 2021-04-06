@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
+  
   .header { 
     text-align: center;
   }
+  
 }
 .tasks-list-page {
   display: block;
@@ -140,14 +142,14 @@ button.delete img:hover {
 
 /* Edit Task */
 li input[type=text] {
-  display:none
+  display: none
 }
 
 li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 li.edit-mode label {
-  display:none;
+  display: none;
 }
